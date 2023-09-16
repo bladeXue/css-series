@@ -1,0 +1,5 @@
+# exclude list
+exclude:  
+  - README.md  
+  - README.zh.md  
+

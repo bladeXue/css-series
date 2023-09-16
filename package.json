@@ -1,0 +1,19 @@
+{
+  "name": "css-series",
+  "version": "1.0.0",
+  "description": "A series of css samples and articles from daily developing.",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch src/entry.scss out/min.css --style=compressed",
+    "sync": "browser-sync start --server --files \"out/**.css, index.html, demo/**.html\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "include-media": "^2.0.0",
+    "normalize.css": "^8.0.1",
+    "remixicon": "^3.5.0",
+    "sass": "^1.67.0"
+  }
+}
